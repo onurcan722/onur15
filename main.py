@@ -4,8 +4,8 @@ import telebot
 import time
 import json
 
-TOKEN = 'TELEGRAM_BOT_TOKEN'
-CHAT_ID = 'TELEGRAM_GRUP/KANAL_ID' # Paylaşım yapılacak grup veya kanal username'ini @ ile yazın. (Örn: @bihaberimvar)
+TOKEN = '7571900983:AAF4DGffZNM4j0i8D_Uow_CE-y7KR30mWSA'
+CHAT_ID = 'TELEGRAM_GRUP/@onixkriptoloji' # Paylaşım yapılacak grup veya kanal username'ini @ ile yazın. (Örn: @bihaberimvar)
 
 # Telegram botunu oluşturun
 bot = telebot.TeleBot(TOKEN)
@@ -15,7 +15,7 @@ bot = telebot.TeleBot(TOKEN)
 sent_messages = {}
 
 # İçerik kopyalanacak kanal ve grupların bulunduğu json dosya yolunu yazın
-json_url = 'https://siteadiniz.com/kanallar.json'
+json_url = 'https://github.com/onurcan722/onur15/blob/29560d2a39b3f02f3c3e18d9acf309ba01858c04/kanallar.json'
 
 channels = {}
 
