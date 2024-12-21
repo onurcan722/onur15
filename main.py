@@ -15,7 +15,7 @@ bot = telebot.TeleBot(TOKEN)
 sent_messages = {}
 
 # İçerik kopyalanacak kanal ve grupların bulunduğu json dosya yolunu yazın
-json_url = 'https://github.com/onurcan722/onur15/blob/b343c33d7897316f14b6d1dda8637400a161180c/kanallar.json'
+json_url = 'https://github.com/onurcan722/onur15/blob/0ee11ed2b40774874d87a331bda15709797e0c7a/kanallar.json'
 
 channels = {}
 
