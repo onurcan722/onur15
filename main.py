@@ -15,7 +15,21 @@ bot = telebot.TeleBot(TOKEN)
 sent_messages = {}
 
 # İçerik kopyalanacak kanal ve grupların bulunduğu json dosya yolunu yazın
-json_url = 'https://github.com/onurcan722/onur15/blob/0ee11ed2b40774874d87a331bda15709797e0c7a/kanallar.json'
+file_path = 'kanallar.json'
+
+try:
+    # Dosyayı okuyun
+    with open(file_path, 'r', encoding='utf-8') as file:
+        data = json.load(file)
+    
+    # JSON verisini yazdırın
+    print(data)
+except json.JSONDecodeError as e:
+    print(f"JSON dosyasını okurken bir hata oluştu: {e}")
+except FileNotFoundError:
+    print(f"Dosya bulunamadı: {file_path}")
+except Exception as e:
+    print(f"Bir hata oluştu: {e}")
 
 channels = {}
 
