@@ -15,7 +15,7 @@ bot = telebot.TeleBot(TOKEN)
 sent_messages = {}
 
 # İçerik kopyalanacak kanal ve grupların bulunduğu json dosya yolunu yazın
-file_path = 'kanallar.json'
+file_path = 'C:\Users\Onur Can\onur15\kanallar.json'
 
 try:
     # Dosyayı okuyun
